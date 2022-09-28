@@ -11,68 +11,78 @@
   /*section2*/
 
   .section-2_title::before {
-    left: 90%
+    left: 90%;
   }
 
   /*section3*/
 
   .section-3 {
-    
   }
+  .section-3_block {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
 
-  .section-3_flex {
-    
+    text-align: center;
+
+    color: #000000;
   }
 
   .section-3_block1 {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block1_smile {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block1_text {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block1_img {
     height: 265px;
-    width: 370px;
+    width: 100%;
+  }
+  .section-3_block + .section-3_block {
+    margin-left: 0px;
   }
 
   .section-3_block2 {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block2_smile {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block2_text {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block2_img {
-    width: 370px;
+    width: 100%;
     height: 265px;
     padding-top: 24px;
   }
 
   .section-3_block3 {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block3_smile {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block3_text {
-    width: 370px;
+    width: 100%;
   }
 
   .section-3_block3_img {
-    width: 370px;
+    width: 100%;
     height: 265px;
   }
 
@@ -87,7 +97,6 @@
   /*section4*/
 
   .section-4 {
-    
   }
 
   .credit-limit {
@@ -118,7 +127,7 @@
   }
 
   .installment_text {
-    width: 380px;
+    width: 100%;
   }
 
   .payment {
@@ -186,6 +195,10 @@
 
   /*section5*/
 
+  .section-5_group {
+    padding-bottom: 14px;
+  }
+
   .section-5_group_img {
     padding-left: 50px;
   }
@@ -199,7 +212,7 @@
   .footer_group2 {
     padding-left: 280px;
   }
-} 
+}
 
 @media only screen and (max-width: 1199px) {
   .container {
@@ -230,6 +243,7 @@
 
   .rocket {
     right: 700px;
+    max-width: 56px;
   }
 
   .petard {
@@ -368,8 +382,86 @@
   .container {
     max-width: 768px;
   }
+  .section-2 {
+    padding-top: 150px;
+  }
 
+  .tablet-br {
+    display: block;
+  }
+  .arrow-one {
+    scale: 0.6;
+    left: -95px;
+    top: 150px;
+  }
+  .section-4_dowloadapp {
+    max-width: 315px;
+    text-align: center;
+  }
+  .dowloadapp_green {
+    max-width: 275px;
+  }
+  .section-1_dowloadapp_m {
+    max-width: 294px;
+  }
+
+  .section-3_title::after {
+    position: absolute;
+    content: "";
+    left: -3%;
+    top: 75px;
+    width: 162.81px;
+    height: 96px;
+    background-image: url(../img/content/block3/calculator.svg);
+  }
+  .section-2_title::after {
+    position: absolute;
+    content: "";
+    left: -8%;
+    bottom: 0px;
+    top: 107px;
+    width: 189.66px;
+    height: 135.5px;
+  }
+  .section-1_title,
+  .section-2_title,
+  .section-3_title {
+    line-height: 80px;
+  }
+  .dowloadapp_text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .arrow-three {
+    position: absolute;
+    bottom: 10%;
+    left: -15%;
+    scale: 0.7;
+  }
+  .arrow-two {
+    position: absolute;
+    right: -37px;
+    top: 49%;
+    scale: 0.7;
+    transform: rotate(-10deg);
+  }
   /*section1*/
+
+  .section-1_dowloadapp {
+    display: none;
+  }
+
+  .section-1_dowloadapp_m {
+    display: block;
+    margin: 0 auto;
+    width: 364px;
+    height: 60px;
+
+    background: #ff3030;
+    box-shadow: -12px 12px 0px #de132a;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+  }
 
   .section-1_head {
     left: 555px;
@@ -377,6 +469,7 @@
 
   .section-1_title {
     font-size: 78px;
+    display: block;
   }
 
   .users {
@@ -424,20 +517,10 @@
     padding-left: 62px;
   }
 
-  .section-2_title::after {
-    position: absolute;
-    content: "";
-    left: -8%;
-    bottom: 0px;
-    top: 140px;
-    width: 189.66px;
-    height: 135.5px;
-  }
-
   .section-2_5minute {
     margin: 0 240px;
     width: 459px;
-    height: 84px; 
+    height: 84px;
   }
 
   .section-2_5minute_text {
@@ -451,17 +534,18 @@
   }
 
   .section-2_steps {
-    width: 460px;
+    width: 100%;
     padding-top: 90px;
   }
 
   .petard {
-    right: -10px;
-    top: 515px;
+    top: 410px;
+    max-width: 64px;
   }
 
   .head {
-    
+    transform: rotate(-20.82deg);
+    max-width: 48px;
   }
 
   /*section3*/
@@ -475,7 +559,7 @@
   .section-3_title::before {
     z-index: -1;
     left: 40%;
-    top: -83px;
+    top: -112px;
   }
 
   .section-3_title_pad-exact {
@@ -485,13 +569,17 @@
   .section-3_title_pad {
     padding-left: 140px;
   }
-
+  .section-3_dowloadapp {
+    max-width: 293px;
+  }
   .section-3_title::after {
     left: -2%;
   }
 
   .section-3_flex {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .section-3_block1 {
@@ -551,7 +639,7 @@
   /*section4*/
 
   .section-4 {
-    padding-top: 360px;
+    padding-top: 200px;
   }
 
   .section-4_title {
@@ -616,9 +704,11 @@
   }
 
   .installment {
-    width: 541px;
+    width: 100%;
     height: 300px;
-    background-image: url(../img/content/block4/installment_bg768.svg);
+    background-image: url(../img/content/block4/bg-768.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .installment_group {
@@ -628,13 +718,16 @@
 
   .installment_title {
     font-size: 28px;
-    line-height: 30px
+    line-height: 30px;
   }
 
   .installment_text {
     width: 435px;
     font-size: 14px;
     line-height: 20px;
+  }
+  .installment-item {
+    display: none;
   }
 
   .payment {
@@ -650,12 +743,12 @@
 
   .payment_title {
     font-size: 28px;
-    line-height: 30px
+    line-height: 30px;
   }
 
   .payment_text {
     font-size: 14px;
-    line-height: 20px
+    line-height: 20px;
   }
 
   .payment_bg {
@@ -692,8 +785,7 @@
   }
 
   .translations_img {
-    padding-top: 22px;
-    padding-left: 155px;
+    padding: 0;
   }
 
   .offers {
@@ -922,6 +1014,7 @@
 
   .section-2_steps {
     padding-top: 167px;
+    height: 636px;
   }
 
   .arrow_img {
@@ -933,41 +1026,53 @@
   }
 
   .arrow1 {
-    right: 488px;
+    right: 312px;
     top: 286px;
   }
 
   .arrow2 {
-    right: 250px;
-    bottom: 470px;
+    right: 75px;
+    bottom: 315px;
   }
 
   .arrow3 {
-    right: 500px;
-    bottom: 288px;
+    right: 320px;
+    bottom: 140px;
   }
 
   .steps {
-    width: 460px;
+    width: 100%;
     height: 560px;
   }
 
-  .rocket{
-    right: 375px;
+  .rocket {
+    right: 234px;
     top: 40px;
+    width: 56px;
+    height: 56px;
   }
 
   .petard {
-    right: 529px;
-    top: 788px;
-    width: 50px;
+    right: 385px;
+    top: 765px;
+    width: 36px;
+    height: 36px;
   }
 
   .head {
     display: none;
   }
 
+  .section-2_loan {
+    margin-top: 55px;
+    margin-bottom: 0;
+  }
+
   /*section3*/
+
+  .section-3 {
+    padding-top: 330px;
+  }
 
   .section-3_title {
     font-size: 48px;
@@ -1032,7 +1137,7 @@
     width: 313px;
     height: 54px;
     margin-top: 30px;
-    background: #FF3030;
+    background: #ff3030;
     box-shadow: -12px 12px 0px #000000;
     border-radius: 15px;
   }
@@ -1044,71 +1149,38 @@
   }
 
   .credit-limit {
-    width: 460px;
-    height: 383px;
+    width: 100%;
   }
 
   .credit-limit_group {
-    width: 310px;
-  }
-
-  .available {
-    display: none;
-  }
-
-  .available-m {
-    display: block;
-    padding-left: 96px;
-    padding-top: 35px;
-    width: 344.42px;
-    height: 184.21px;
+    width: 100%;
   }
 
   .installment {
-    width: 460px;
-    height: 383px;
-    background-image: url(../img/content/block4/installment_bg480.svg);
+    width: 100%;
+    height: 300px;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(../img/content/block4/bg-768.svg);
   }
 
   .installment_group {
     width: 320px;
   }
 
-  .installment_text {
-    width: 360px;
-  }
 
   .payment {
-    width: 460px;
-    height: 381px;
+    width: 100%;
   }
 
-  .payment_group {
-
-  }
-
-  .payment_title {
-    
-  }
-
-  .payment_text {
-    
-  }
-
-  .payment_bg {
-    width: 290px;
-    height: 180px;
-    padding-top: 52px;
-  }
 
   .payment-2_absolute {
     left: 135px;
-    bottom: 89px;
+    bottom: 10px;
   }
 
   .translations {
-    width: 460px;
-    height: 381px;
+    width: 100%;
   }
 
   .translations_group {
@@ -1119,16 +1191,8 @@
     width: 270px;
   }
 
-  .translations_text {
-  }
-
-  .translations_img {
-    padding-top: 40px;
-    padding-left: 45px;
-  }
-
   .offers {
-    width: 460px;
+    width: 100%;
     height: 383px;
   }
 
@@ -1155,7 +1219,7 @@
     padding-left: 20px;
   }
 
-  /*section5*/ 
+  /*section5*/
 
   .section-5 {
     padding-top: 287px;
@@ -1167,19 +1231,15 @@
   }
 
   .section-5_group_text {
-    width: 460px;
+    width: 100%;
   }
 
   .two_phone {
-    width: 460px;
+    width: 100%;
     height: 460px;
   }
 
   /*footer*/
-
-  .container-footer {
-    max-width: 460px
-  }
 
   .footer_flex_group2-group3 {
     display: block;
@@ -1192,17 +1252,17 @@
 
 @media only screen and (max-width: 479px) {
   .container {
-    max-width: 370px;
+    max-width: 100%;
   }
-  .section-5_group_text-dowloadapp {
-    display: none;
-  }
+
   /*section1*/
 
-  .dowloadapp {
-    width: 340px;
+  .section-1_dowloadapp_m {
+    width: 300px;
   }
-
+.section-2 {
+  overflow: hidden;
+}
   .dowloadapp_text {
     left: 3px;
   }
@@ -1211,16 +1271,17 @@
 
   .rocket {
     right: 169px;
-    width: 50px;
   }
 
   .section-2_steps {
-    width: 370px;
+    max-width: 100%;
+    width: 100%;
+    height: 534px;
   }
 
   .steps {
-    width: 370px;
-    height: 470px; 
+    width: 100%;
+    height: 470px;
   }
 
   .arrow1 {
@@ -1230,89 +1291,98 @@
 
   .arrow2 {
     right: 53px;
-    bottom: 514px;
+    bottom: 262px;
   }
 
   .arrow3 {
     right: 254px;
-    bottom: 360px;
+    bottom: 105px;
   }
 
   .petard {
-    right: 220px;
-    top: 723px;
+    right: 290px;
+    top: 660px;
   }
 
   .section-2_loan {
-    margin-top: 0;
+    margin-top: 24px;
+    margin-bottom: 14px;
   }
 
   /*section3*/
 
   .section-3_title::before {
     left: 35%;
-    top: -75px;
+    top: -93px;
+  }
+
+  .section-3_dowloadapp {
+    width: 300px;
   }
 
   .section-3_block1 {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block1_smile {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block1_text {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block1_img {
     height: 235px;
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block2 {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block2_smile {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block2_text {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block2_img {
-    width: 351px;
+    width: 100%;
     height: 235px;
   }
 
   .section-3_block3 {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block3_smile {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block3_text {
-    width: 351px;
+    width: 100%;
   }
 
   .section-3_block3_img {
-    width: 351px;
+    width: 100%;
     height: 235px;
   }
 
   /*section4*/
 
+  .section-4_dowloadapp {
+    width: 315px;
+  }
+
   .section-4_updates_text {
-    padding-left: 16px;
+    padding-left: 3px;
   }
 
   .credit-limit {
-    width: 351px;
+    width: 100%;
   }
 
   .available-m {
@@ -1321,7 +1391,7 @@
   }
 
   .installment {
-    width: 351px;
+    width: 100%;
   }
 
   .installment_text {
@@ -1329,7 +1399,7 @@
   }
 
   .payment {
-    width: 351px;
+    width: 100%;
   }
 
   .payment_group {
@@ -1348,7 +1418,7 @@
   }
 
   .translations {
-    width: 351px;
+    width: 100%;
   }
 
   .translations_group {
@@ -1356,13 +1426,15 @@
   }
 
   .translations_img {
-    padding-left: 8px;
+    padding-left: 0px;
   }
 
   .offers {
-    width: 351px;
+    width: 100%;
   }
-
+  .block4-img {
+    display: block;
+  }
   .offers_group {
     width: 297px;
   }
@@ -1379,28 +1451,30 @@
   /*section5*/
 
   .section-5_group_text {
-    width: 351px;
+    width: 100%;
   }
 
   .two_phone {
-    width: 351px;
+    width: 100%;
     height: 351px;
   }
 
+  .section-5_dowloadapp {
+    display: none;
+  }
 
   .dowloadapp_m {
     display: block;
     margin: 0 auto;
     width: 197px;
     height: 60px;
-    background: #FF3030;
+    background: #ff3030;
     box-shadow: -12px 12px 0px #de132a;
     border-radius: 15px;
     transition-duration: 0.5s;
   }
 
   .section-5_group_text-dowloadapp {
-    margin-top: 24px;
   }
 
   .playmerket_img {
@@ -1415,5 +1489,235 @@
 }
 
 @media only screen and (max-width: 370px) {
+}
+@media (max-width: 1350px) {
+  .section-3_block {
+    align-items: center;
+  }
+  .section-3_card {
+    min-height: 208px;
+    max-width: 300px;
+  }
+  .section-3_card.two {
+    margin-top: 24px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .section-3_card.two {
+    margin-top: 45px;
+  }
+  .section-3_card.two .card-image {
+    height: 99%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1350px) {
+  .installment-item.teals {
+    background: #cdff05;
+    top: -17px;
+    right: 30px;
+  }
+  .installment-item.orange {
+    background: #ff9900;
+    top: 85px;
+    right: -15px;
+  }
+  .installment-item.malin {
+    background: #cf01a2;
+    right: -5px;
+    bottom: 0px;
+  }
+  .installment-item.red {
+    background: #ff0000;
+    bottom: 95px;
+    right: 25px;
+  }
+  .installment-item.purple {
+    background: #9d52ff;
+    bottom: 60px;
+    left: 40%;
+  }
+  .translations_img {
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 450px) {
+.section-1_title_pad {
+    padding-left: 59px;
+}
+.section-1_title {
+  padding-left: 8px;
+} 
+.petard {
+  right: 0;
+  left: 25px;
+  bottom: 0;
+  top: 100%;
+}
+.installment {
+  background-image: url(../img/content/block4/offer-modile.png);
+  background-size: 100%;
+  background-position: bottom;
+}
+.offer-card {
+  max-width: 95%;
+  width: 100%;
+  overflow: hidden;
+  margin: 20px auto;
+  min-height: 383px;
+}
+.available {
+  display: none;
+}
+.available-mob {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  bottom: -30px;
+  position: relative;
+}
+.section-5_flex {
+  padding: 0 12px;
+}
+.section-5_group_text-subtitle br {
+  display: none;
+}
+/* .available {
+  padding-left: 42px;
+  padding-top: 0;
+  width: 300px;
+  height: 206px;
+} */
+.mobile-theme {
+  display: block;
+}
+.section-2_title_pad3 {
+  display: block;
+}
+.arrow-one {
+  scale: 0.4;
+  left: -53px;
+  top: 263px;
+}
+.arrow-three {
+  position: absolute;
+  bottom: 10%;
+  left: -5%;
+  scale: 0.5;
+}
+.arrow-two {
+  position: absolute;
+  right: 10px;
+  top: 54%;
+  scale: 0.7;
+  transform: rotate(-10deg);
+}
+.content-list_item.two {
+  float: none;
+  display: block;
+  margin: 0 0 0 auto;
+}
+.content-list_item, .content-list_item-white {
+  max-width: 263px;
+  margin-top: 50px;
+}
+.tablet-br {
+  display: none;
+}
+.content-list_item-final {
+  max-width: 262px;
+}
+.section-2_loan {
+  margin: 120px auto 0;
+}
+.content-list_item br {
+  display: none;
+}
+}
 
+@media screen and (min-width: 320px) and (max-width: 369px) {
+  .logo {
+    width: 160px;
+    object-fit: contain;
+  }
+  .header {
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .section-1_title, .section-3_title, .section-2_title, .section-4_title {
+    font-size: 39px;
+    line-height: 40px;
+}
+.section-1_link {
+  font-size: 12px;
+}
+.section-1_link_padl {
+  margin-left: 6px;
+}
+.section-2_title::after {
+  top: 98px;
+}
+.section-3_title::after {
+  top: 41px;
+}
+.section-3_title::before {
+  left: 26%;
+}
+.section-3_card {
+  max-width: 270px;
+}
+.section_centre {
+  padding: 0 12px;
+}
+.section-3_card.two {
+  margin-top: 24px;
+  overflow: hidden;
+}
+.translations_img {
+  width: 90%;
+}
+.payment_group {
+  width: 280px;
+}.card-item.two {
+  bottom: -20%;
+}
+
+.payment-2_absolute {
+  left: 20px;
+  bottom: 40px;
+}
+.peyment-2 {
+  width: 275px;
+  height: 90px;
+  background: #ff9900;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.payment_bg {
+  width: 200px;
+  height: 145px;
+  padding-top: 130px;
+}
+.section-4_updates_text {
+  padding-left: 0;
+}
+.section-3_dowloadapp, .section-4_dowloadapp {
+  width: 280px;
+}
+.section-4_commingsoonm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+}
+.footer_flex {
+  padding: 0 12px;
+}
+.section-4_commingsoon_text {
+  padding-left: 0;
+  font-size: 39px;
+  line-height: 50px;
+  text-align: center;
+}
 }
