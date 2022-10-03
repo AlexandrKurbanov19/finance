@@ -1,4 +1,5 @@
-const langSelect = document.querySelectorAll('.custom-select');
+window.onload = () => {
+  const langSelect = document.querySelectorAll('.custom-select');
 const langListItems = document.querySelectorAll('.custom-select__item');
 const activeLangImg = document.querySelectorAll('.custom-select__active img');
 const activeLang = document.querySelectorAll('.custom-select__active span');
@@ -131,4 +132,4 @@ for (anchor of anchors) {
     })
   }
 }
-
+}

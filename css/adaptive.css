@@ -1255,9 +1255,9 @@
   .container {
     max-width: 100%;
   }
-  body {
+  /* body {
     overflow-x: hidden;
-  }
+  } */
   .section-2_steps {
     display: none;
   }
