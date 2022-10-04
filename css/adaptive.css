@@ -1261,8 +1261,18 @@
   .section-2_steps {
     display: none;
   }
+  .section-2_title {
+    padding-top: 0;
+  }
+  .section-2_title::after {
+    width: 101.32px;
+    height: 73.5px;
+    left: -60px;
+    top: 12px;
+    background-image: url(../img/content/block2/mbez.svg);
+}
   .section-2 {
-    overflow: auto;
+    overflow: inherit;
   }
   .section-2_steps-mob {
     display: block;
