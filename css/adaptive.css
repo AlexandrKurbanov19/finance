@@ -1262,7 +1262,7 @@
     display: none;
   }
   .section-2 {
-    overflow: visible;
+    overflow: auto;
   }
   .section-2_steps-mob {
     display: block;
