@@ -10,6 +10,9 @@ body {
 .section-2_steps-tab {
   display: none;
 }
+.mobile-375 {
+  display: none;
+}
 h1,
 h2,
 h3,

@@ -58,6 +58,9 @@
 
   .section-3_block2_text {
     width: 100%;
+    display: block;
+    padding: 0 12px;
+    box-sizing: border-box;
   }
 
   .section-3_block2_img {
@@ -207,13 +210,7 @@
     padding-left: 280px;
   }
 }
-@media (max-width: 1280px) {
-  .offers_title, .translations_title, .installment_title , .payment_title , .credit-limit_title {
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 8px;
-  }
-}
+
 @media only screen and (max-width: 1199px) {
   .container {
     max-width: 1000px;
@@ -397,7 +394,6 @@
     height: 99%;
   }
 }
-
 @media (min-width: 1000px) and (max-width: 1350px) {
   .installment-item.teals {
     background: #cdff05;
@@ -427,35 +423,43 @@
   .translations_img {
     padding: 0;
     margin: 0 auto;
-    padding-top: 30px;
   }
-}
-@media (max-width: 1000px) {
-  .section-3_block1_text, .section-3_block2_text, .section-3_block3_text
-  {
-    font-size: 20px;
-    line-height: 32px;
-  }
-  .section-3_card.two {
-    margin-top: 56px;
-}
 }
 @media only screen and (max-width: 999px) {
   .container {
     max-width: 724px;
   }
-  .offers_title, .translations_title, .installment_title , .payment_title , .credit-limit_title {
-    font-size: 28px;
-    line-height: 30px;
-    margin-bottom: 8px;
-  }
   .section-1_link_pad {
     padding: 0 10px;
   }
+  .section-4_commingsoon {
+    display: none;
+  }
+  .section-4_commingsoonm {
+    display: table;
+    margin: 0 auto;
+    width: 520px;
+    text-align: center;
+    height: 54px;
+    margin-top: 30px;
+    background: #ff3030;
+    box-shadow: -12px 12px 0px #000000;
+    border-radius: 10px;
+}
+.section-4_commingsoon_text {
+  padding: 0;
+}
+.section-3_card {
+  max-width: 433px;
+  min-height: 296px;
+}
   .section-2 {
     padding-top: 150px;
   }
-
+  .section-3_block1_text, .section-3_block2_text, .section-3_block3_text {
+    font-size: 20px;
+    line-height: 32px;
+  }
   .tablet-br {
     display: block;
   }
@@ -737,9 +741,8 @@
 
   .section-4_commingsoon {
     margin-left: 115px;
-    width: 570px;
+    width: 545px;
     height: 84px;
-    
   }
 
   .section-4_commingsoon_text {
@@ -952,24 +955,18 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .container {
     max-width: 480px;
   }
- 
+  .section-3_block1_text, .section-3_block2_text, .section-3_block3_text
+  {
+    font-size: 20px;
+    line-height: 32px;
+  }
   .section-3_card {
     max-width: 433px;
     min-height: 296px;
-  }
-  .section-2_steps-tab {
-    display: block;
-    margin-top: 65px;
-  }
-  .section-2_steps-tab > img {
-    width: 100%;
-  }
-  .section-2_steps {
-    display: none;
   }
   .card-item_text p {
     font-family: 'SFProText', sans-serif;
@@ -1352,7 +1349,7 @@
 
   /*footer*/
 
-  .footer_flex_group2-group3 {
+ .footer_flex_group2-group3 {
     display: flex;
     justify-content: space-between;
 }
@@ -1362,12 +1359,31 @@
   }
 }
 
-
+@media only screen and (max-width: 650px) {
+  .section-2_steps-tab {
+    display: block;
+    margin-top: 65px;
+  }
+  .section-2_steps-tab > img {
+    width: 100%;
+  }
+  .section-2_steps {
+    display: none;
+  }
+  
+}
 @media only screen and (max-width: 479px) {
   .container {
     max-width: 100%;
   }
-
+  .section-3_block1_text, .section-3_block2_text, .section-3_block3_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .section-3_card {
+    max-width: 89%;
+    min-height: 235px;
+  }
   .dowloadapp_text.text {
     display: none;
   }
@@ -1470,7 +1486,7 @@
     margin-top: 24px;
     margin-bottom: 14px;
   }
-
+ 
   /*section3*/
 
   .section-3_title::before {
@@ -1653,12 +1669,22 @@
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 375px) {
+  .mobile-375 {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .section-1_title_pad {
     padding-left: 59px;
+  }
+  .card-item_text p {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .card-item_text span, .card-item_text.last > p {
+    font-size: 15px;
   }
   .section-1_title {
     padding-left: 8px;
@@ -1788,8 +1814,9 @@
     left: 26%;
   }
   .section-3_card {
-    max-width: 270px;
-  }
+    max-width: 290px;
+    min-height: 200px;
+}
   .section_centre {
     padding: 0 12px;
   }
