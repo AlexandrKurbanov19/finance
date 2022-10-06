@@ -313,14 +313,14 @@ p {
   
   .background-circle.two {
     width: 270px;
-    height: 270px;
+    height: 330px;
     top: 31%;
     -webkit-filter: blur(600px);
             filter: blur(600px);
   }
   .background-circle.three {
     width: 300px;
-    height: 300px;
+    height: 330px;
     top: 80%;
     left: 0;
     -webkit-filter: blur(600px);
