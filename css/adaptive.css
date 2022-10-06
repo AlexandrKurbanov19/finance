@@ -1181,6 +1181,7 @@
   .section-3 {
     padding-top: 330px;
     padding-bottom: 200px;
+    box-sizing: border-box;
   }
 
   .section-3_title {
