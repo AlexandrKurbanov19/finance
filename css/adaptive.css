@@ -1596,7 +1596,7 @@
   .payment_bg {
     width: 290px;
     height: 152px;
-    padding-top: 130px;
+    padding-top: 150px;
   }
 
   .translations {
@@ -1709,7 +1709,7 @@
     width: 100%;
     overflow: hidden;
     margin: 20px auto;
-    min-height: 383px;
+    min-height: 395px;
   }
   .available {
     display: none;
