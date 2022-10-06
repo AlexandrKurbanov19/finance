@@ -1254,7 +1254,6 @@
     font-size: 14px;
   }
   .section-4_commingsoon_text {
-    padding-left: 16px;
     font-size: 48px;
     line-height: 50px;
   }
@@ -1380,6 +1379,10 @@
   .section-3_block1_text, .section-3_block2_text, .section-3_block3_text {
     font-size: 14px;
     line-height: 20px;
+  }
+  .credit-limit_text {
+    display: block;
+    padding-right: 12px;
   }
   .section-3_card {
     max-width: 89%;
