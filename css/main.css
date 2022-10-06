@@ -151,6 +151,7 @@ p {
   content: '';
   z-index: -1;
   right: 0;
+  border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
   width: 434px;
@@ -167,11 +168,13 @@ p {
   width: 524px;
   bottom: 0;
   left: 0;
+  border-radius: 50%;
   height: 524px;
   filter: blur(500px);
 }
 .background-circle.three {
   right: 0;
+  border-radius: 50%;
   background: #29b37f;
   width: 524px;
   height: 524px;
@@ -180,10 +183,12 @@ p {
   filter: blur(500px);
 }
 .background-circle.four {
+  border-radius: 50%;
 }
 .background-circle.five {
   background: #ffd962;
   filter: blur(500px);
+  border-radius: 50%;
   left: 0;
 }
 .background-circle.six {
@@ -191,23 +196,27 @@ p {
   filter: blur(500px);
   left: 0;
   top: 30%;
+  border-radius: 50%;
   width: 586px;
   height: 586px;
 }
 .background-circle.seven {
   background: #ff0000;
   filter: blur(500px);
+  border-radius: 50%;
   top: 83%;
 }
 .background-circle.eight {
   background: #ff0000;
   filter: blur(500px);
+  border-radius: 50%;
   top: 83%;
 }
 .background-circle.nine {
   background: #ff0000;
   filter: blur(500px);
   top: 83%;
+  border-radius: 50%;
   left: 10%;
 }
 @media all and (max-width: 1000px) and (min-width: 660px) {
