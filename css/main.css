@@ -307,31 +307,31 @@ p {
     width: 100%;
     height: 450px;
     right: 0;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
   }
   
   .background-circle.two {
     width: 100%;
     height: 330px;
     top: 31%;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
   }
   .background-circle.three {
     width: 100%;
     height: 450px;
     top: 80%;
     left: 0;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
   }
   .background-circle.four {
     width: 100%;
     height: 380px;
     background: #ff0000;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
     top: 78%;
   }
   .background-circle.nine {
@@ -342,13 +342,13 @@ p {
     height: 400px;
     top: 30%;
     background: #ffd962;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
   }
   .background-circle.eight {
     background: #ff0000;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
     top: 10%;
     width: 100%;
     right: 0;
@@ -359,8 +359,8 @@ p {
   }
   .background-circle.six {
     background: #ffd962;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
     left: 0;
     top: 16%;
     width: 100%;
@@ -370,17 +370,16 @@ p {
     width: 100%;
     height: 350px;
     background: #ff0000;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
     top: 70%;
   }
   .background-circle.eight {
     background: #ff0000;
-    -webkit-filter: blur(500px);
-            filter: blur(500px);
+    -webkit-filter: blur(700px);
+            filter: blur(700px);
     top: 61%;
     left: 50%;
-    width: 100%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
