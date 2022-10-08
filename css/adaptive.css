@@ -468,8 +468,8 @@
     padding-top: 150px;
   }
   .section-3_block1_text, .section-3_block2_text, .section-3_block3_text {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .tablet-br {
     display: block;
@@ -797,6 +797,7 @@
   .credit-limit_title {
     font-size: 28px;
     line-height: 30px;
+    letter-spacing: normal;
   }
 
   .credit-limit_text {
@@ -835,6 +836,7 @@
   .installment_title {
     font-size: 28px;
     line-height: 30px;
+    letter-spacing: normal;
   }
 
   .installment_text {
@@ -860,6 +862,7 @@
   .payment_title {
     font-size: 28px;
     line-height: 30px;
+    letter-spacing: normal;
   }
 
   .payment_text {
@@ -893,6 +896,7 @@
     width: 270px;
     font-size: 28px;
     line-height: 30px;
+    letter-spacing: normal;
   }
 
   .translations_text {
@@ -920,6 +924,7 @@
     font-size: 28px;
     line-height: 30px;
     width: 450px;
+    letter-spacing: normal;
   }
 
   .offers_text {

@@ -1,5 +1,5 @@
 window.onload = () => {
-  const langSelect = document.querySelectorAll('.custom-select');
+const langSelect = document.querySelectorAll('.custom-select');
 const langListItems = document.querySelectorAll('.custom-select__item');
 const activeLangImg = document.querySelectorAll('.custom-select__active img');
 const activeLang = document.querySelectorAll('.custom-select__active span');
@@ -7,8 +7,6 @@ const titleOne = document.querySelector('.animate-one');
 const animateTwo = document.querySelector('.users-flex');
 const animateThree = document.querySelector('.community');
 const link = document.querySelector('.link');
-const animateFour = document.querySelector('.animation-four');
-const sectionTwo = document.querySelector('.section-2');
 const animate2 = document.querySelector('.animation-two')
 const animate3 = document.querySelector('.animation-three')
 const animate4 = document.querySelector('.animation-four');
@@ -25,7 +23,6 @@ const animate13 = document.querySelectorAll('.animate-thirteen');
 const animate14 = document.querySelector('.animate-fourteen');
 const animate15 = document.querySelector('.animate-fifteen');
 
-const window_height = (window.innerHeight ? window.innerHeight : (document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.offsetHeight));
 const sections = document.querySelectorAll(".animate_block");
 
 const cb = (entries) => {
@@ -96,9 +93,6 @@ setTimeout(() => {
   link.classList.remove('hidden');
 }, 500)
 
-if (sectionTwo.scrollIntoView) {
-  console.log('2')
-}
 langSelect.forEach((item) => {
     item.addEventListener('click', (e) => {
       item.classList.toggle('active');
@@ -127,7 +121,6 @@ for (anchor of anchors) {
     anchor.addEventListener('click', function(e){
       e.preventDefault();
       anchorId = this.getAttribute('href');
-      console.log(anchorId)
       document.getElementById(anchorId).scrollIntoView({behavior: 'smooth', block: 'start'})
     })
   }
