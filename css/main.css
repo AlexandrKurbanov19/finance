@@ -342,8 +342,8 @@ p {
     height: 410px;
     top: 30%;
     background: #ffd962;
-    -webkit-filter: blur(400px);
-            filter: blur(400px);
+    -webkit-filter: blur(300px);
+            filter: blur(300px);
   }
   .background-circle.eight {
     background: #ff0000;
@@ -378,7 +378,7 @@ p {
     background: #ff0000;
     -webkit-filter: blur(700px);
             filter: blur(700px);
-    top: 61%;
+    top: 38%;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
