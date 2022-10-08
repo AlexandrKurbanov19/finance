@@ -304,82 +304,83 @@ p {
 }
 @media all and (max-width: 660px) and (min-width: 320px) {
   .background-circle.one {
-    width: 315px;
-    height: 315px;
+    width: 100%;
+    height: 450px;
     right: 0;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
   }
   
   .background-circle.two {
-    width: 270px;
+    width: 100%;
     height: 330px;
     top: 31%;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
   }
   .background-circle.three {
-    width: 300px;
-    height: 330px;
+    width: 100%;
+    height: 450px;
     top: 80%;
     left: 0;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
   }
   .background-circle.four {
-    width: 310px;
-    height: 310px;
+    width: 100%;
+    height: 380px;
     background: #ff0000;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
     top: 78%;
   }
   .background-circle.nine {
     display: none;
   }
   .background-circle.five {
-    width: 310px;
-    height: 310px;
+    width: 100%;
+    height: 400px;
     top: 30%;
     background: #ffd962;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
   }
   .background-circle.eight {
     background: #ff0000;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
     top: 10%;
-    width: 275px;
+    width: 100%;
     right: 0;
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
-    height: 275px;
+    height: 355px;
   }
   .background-circle.six {
     background: #ffd962;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
     left: 0;
     top: 16%;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
   }
   .background-circle.seven {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     background: #ff0000;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
     top: 70%;
   }
   .background-circle.eight {
     background: #ff0000;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
     top: 61%;
     left: 50%;
+    width: 100%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
