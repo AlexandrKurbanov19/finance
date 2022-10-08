@@ -339,11 +339,11 @@ p {
   }
   .background-circle.five {
     width: 310px;
-    height: 310px;
+    height: 410px;
     top: 30%;
     background: #ffd962;
-    -webkit-filter: blur(700px);
-            filter: blur(700px);
+    -webkit-filter: blur(400px);
+            filter: blur(400px);
   }
   .background-circle.eight {
     background: #ff0000;
