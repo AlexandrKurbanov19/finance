@@ -327,8 +327,8 @@ p {
             filter: blur(700px);
   }
   .background-circle.four {
-    width: 100%;
-    height: 380px;
+    width: 310px;
+    height: 310px;
     background: #ff0000;
     -webkit-filter: blur(700px);
             filter: blur(700px);
@@ -338,8 +338,8 @@ p {
     display: none;
   }
   .background-circle.five {
-    width: 100%;
-    height: 400px;
+    width: 310px;
+    height: 310px;
     top: 30%;
     background: #ffd962;
     -webkit-filter: blur(700px);
@@ -350,25 +350,25 @@ p {
     -webkit-filter: blur(700px);
             filter: blur(700px);
     top: 10%;
-    width: 100%;
+    width: 275px;
     right: 0;
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
-    height: 355px;
+    height: 275px;
   }
   .background-circle.six {
     background: #ffd962;
     -webkit-filter: blur(700px);
             filter: blur(700px);
     left: 0;
-    top: 10%;
-    width: 100%;
-    height: 450px;
+    top: 16%;
+    width: 300px;
+    height: 300px;
   }
   .background-circle.seven {
-    width: 100%;
-    height: 550px;
+    width: 300px;
+    height: 300px;
     background: #ff0000;
     -webkit-filter: blur(700px);
             filter: blur(700px);
@@ -378,7 +378,7 @@ p {
     background: #ff0000;
     -webkit-filter: blur(700px);
             filter: blur(700px);
-    top: 50%;
+    top: 61%;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
