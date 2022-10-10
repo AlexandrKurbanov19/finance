@@ -1418,6 +1418,9 @@
   .container {
     max-width: 100%;
   }
+  .section-3 {
+    padding-bottom: 100px;
+  }
   .section-3_block1_text, .section-3_block2_text, .section-3_block3_text {
     font-size: 14px;
     line-height: 20px;
