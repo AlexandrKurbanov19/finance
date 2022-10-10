@@ -310,8 +310,8 @@ p {
     backdrop-filter: blur(700px);
 
     -webkit-backdrop-filter: blur(700px);
-    -webkit-filter: blur(300px);
-            filter: blur(300px);
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
   }
   
   .background-circle.two {
