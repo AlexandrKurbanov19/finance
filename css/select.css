@@ -44,7 +44,9 @@
   align-items: center;
   position: relative;
 }
-
+.custom-select__active > img, .custom-select__item > img {
+  margin-right: 5px;
+}
 .custom-select__active::after {
   content: '';
   position: absolute;
@@ -61,12 +63,13 @@
   padding-inline-start: 0px;
   width: 90px;
   position: absolute;
-  height: 160px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #ffffff;
+  padding-top: 12px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   transition: all 0.3s ease;
