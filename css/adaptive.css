@@ -806,7 +806,8 @@
   }
 
   .available {
-    padding-left: 42px;
+    padding-left: 0px;
+    left: 42px;
     padding-top: 0;
     width: 387px;
     height: 206px;

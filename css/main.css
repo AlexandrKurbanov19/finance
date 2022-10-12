@@ -250,25 +250,29 @@ p {
     width: 315px;
     height: 315px;
     right: 0;
-    -webkit-filter: blur(550px);
-            filter: blur(550px);
+    -webkit-filter: blur(650px);
+            filter: blur(650px);
   }
   .background-circle.two {
     width: 434px;
     height: 434px;
     top: 35%;
+    -webkit-filter: blur(650px);
+    filter: blur(650px);
   }
   .background-circle.three {
     width: 434px;
     height: 434px;
     top: 65%;
+    -webkit-filter: blur(650px);
+    filter: blur(650px);
   }
   .background-circle.four {
     width: 342px;
     height: 342px;
     background: #ff0000;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(650px);
+            filter: blur(650px);
     top: 78%;
   }
   .background-circle.nine {
@@ -280,21 +284,21 @@ p {
     top: 30%;
 
     background: #ffd962;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(650px);
+            filter: blur(650px);
   }
   .background-circle.seven {
     width: 542px;
     height: 542px;
     background: #ff0000;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(650px);
+            filter: blur(650px);
     top: 70%;
   }
   .background-circle.eight {
     background: #ff0000;
-    -webkit-filter: blur(600px);
-            filter: blur(600px);
+    -webkit-filter: blur(650px);
+            filter: blur(650px);
     top: 61%;
     left: 50%;
     -webkit-transform: translateX(-50%);
