@@ -181,6 +181,10 @@ p {
 }
 .background-circle.one {
   right: 10%;
+  backdrop-filter: blur(700px);
+  filter: blur(1500px);
+  -webkit-filter: blur(1500px);
+  -webkit-backdrop-filter: blur(700px);
 }
 .background-circle.two {
   background: #29b37f;
@@ -250,6 +254,9 @@ p {
     width: 315px;
     height: 315px;
     right: 0;
+    backdrop-filter: blur(700px);
+
+    -webkit-backdrop-filter: blur(700px);
     -webkit-filter: blur(1000px);
             filter: blur(1000px);
   }
