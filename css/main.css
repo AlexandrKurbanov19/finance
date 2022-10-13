@@ -176,8 +176,8 @@ p {
   height: 434px;
   border-radius: 50%;
   background: #ff0000;
-  filter: blur(800px);
-  -webkit-filter: blur(800px)
+  filter: blur(1500px);
+  -webkit-filter: blur(1500px)
 }
 .background-circle.one {
   right: 10%;
