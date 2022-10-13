@@ -1,4 +1,19 @@
 window.onload = () => {
+  var ua = /[?&]ua=([^&]+)(?:&|$)/.exec(location.search);
+
+    if (ua) {
+      ua = decodeURIComponent(ua[1]).replace(/\+/g, ' ');
+      document.getElementById('custom').value = ua;
+    }
+
+    platform = ua ? platform.parse(ua) : platform;
+    platform.os = String(platform.os);
+    console.log(platform.name);
+
+  if (platform.name === 'Firefox' || platform.name === 'Safari') {
+    document.querySelectorAll('.background-circle').forEach((i) => i.style.opacity = 0.32);
+  }
+	
 const langSelect = document.querySelectorAll('.custom-select');
 const langListItems = document.querySelectorAll('.custom-select__item');
 const activeLangImg = document.querySelectorAll('.custom-select__active img');
