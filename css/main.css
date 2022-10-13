@@ -250,8 +250,8 @@ p {
     width: 315px;
     height: 315px;
     right: 0;
-    -webkit-filter: blur(650px);
-            filter: blur(650px);
+    -webkit-filter: blur(1000px);
+            filter: blur(1000px);
   }
   .background-circle.two {
     width: 434px;
