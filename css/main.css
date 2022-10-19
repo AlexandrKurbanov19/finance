@@ -178,6 +178,19 @@ p {
   position: relative;
 }
 
+.bg_section-1 .pad {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  opacity: .5;
+  filter: blur(1000px);
+  -webkit-filter: blur(1000px);
+  z-index: -1;
+}
+
 .background-circle {
   position: absolute;
   content: '';
@@ -199,8 +212,9 @@ p {
 .background-circle.one {
   right: 10%;
   /* backdrop-filter: blur(700px); */
-  filter: blur(1500px);
-  -webkit-filter: blur(1500px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  z-index: -1;
   /* -webkit-backdrop-filter: blur(700px); */
 }
 
