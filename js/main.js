@@ -1,23 +1,23 @@
 window.onload = () => {
-  var ua = /[?&]ua=([^&]+)(?:&|$)/.exec(location.search);
+  // var ua = /[?&]ua=([^&]+)(?:&|$)/.exec(location.search);
 
-    if (ua) {
-      ua = decodeURIComponent(ua[1]).replace(/\+/g, ' ');
-      document.getElementById('custom').value = ua;
-    }
+  //   if (ua) {
+  //     ua = decodeURIComponent(ua[1]).replace(/\+/g, ' ');
+  //     document.getElementById('custom').value = ua;
+  //   }
 
-    platform = ua ? platform.parse(ua) : platform;
-    platform.os = String(platform.os);
-    const Mac = platform.os.includes('Mac');
-    const Ios = platform.os.includes('iOS');
-    const system = platform.name;
+  //   platform = ua ? platform.parse(ua) : platform;
+  //   platform.os = String(platform.os);
+  //   const Mac = platform.os.includes('Mac');
+  //   const Ios = platform.os.includes('iOS');
+  //   const system = platform.name;
 
-  if (system === 'Firefox' || system === 'Safari') {
-    document.querySelectorAll('.background-circle').forEach((i) => i.style.opacity = 0.32);
-  }
-  if ((system === 'Firefox' || system === 'Safari' || system === 'Chrome') && (Mac || Ios)) {
-    document.querySelectorAll('.background-circle').forEach((i) => i.style.opacity = 0.32);
-  }
+  // if (system === 'Firefox' || system === 'Safari') {
+  //   document.querySelectorAll('.background-circle').forEach((i) => i.style.opacity = 0.32);
+  // }
+  // if ((system === 'Firefox' || system === 'Safari' || system === 'Chrome') && (Mac || Ios)) {
+  //   document.querySelectorAll('.background-circle').forEach((i) => i.style.opacity = 0.32);
+  // }
 	
 const langSelect = document.querySelectorAll('.custom-select');
 const langListItems = document.querySelectorAll('.custom-select__item');
