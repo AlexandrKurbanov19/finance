@@ -204,24 +204,27 @@ p {
   /* -webkit-backdrop-filter: blur(700px); */
 }
 
-/* @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5) {
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-width: 786px) {
   .background-circle {
-    width: 217px !important;
-    height: 217px !important;
+    width: 303px !important;
+    height: 303px !important;
   }
 
-  .background-circle.two {
-    width: 262px;
-    height: 262px;
-  }
-
+  .background-circle.two,
   .background-circle.three {
-
+    width: 366px;
+    height: 366px;
   }
-} */
+
+  .background-circle.six {
+    width: 410px;
+    height: 410px;
+  }
+}
 
 .background-circle.two {
   background: #29b37f;
