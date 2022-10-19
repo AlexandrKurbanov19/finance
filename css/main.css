@@ -178,7 +178,7 @@ p {
   position: relative;
 }
 
-.bg_section-1 .pad {
+.pad {
   width: 100%;
   min-height: 100%;
   position: absolute;
@@ -218,7 +218,7 @@ p {
   /* -webkit-backdrop-filter: blur(700px); */
 }
 
-@media (min-width: 767px) and (-Webkit-min-device-pixel-ratio: 1.5),
+/* @media (min-width: 767px) and (-Webkit-min-device-pixel-ratio: 1.5),
 (min-width: 767px) and (-moz-min-device-pixel-ratio: 1.5),
 (min-width: 767px) and (-o-min-device-pixel-ratio: 3/2),
 (min-width: 767px) and (min-device-pixel-ratio: 1.5) {
@@ -237,7 +237,7 @@ p {
     width: 410px !important;
     height: 410px !important;
   }
-}
+} */
 
 .background-circle.two {
   background: #29b37f;
