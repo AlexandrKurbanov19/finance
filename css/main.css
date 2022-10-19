@@ -201,8 +201,8 @@ p {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 434px;
-  height: 434px;
+  width: 550px;
+  height: 550px;
   border-radius: 50%;
   background: #ff0000;
   filter: blur(1500px);
