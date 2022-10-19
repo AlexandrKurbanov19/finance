@@ -204,25 +204,24 @@ p {
   /* -webkit-backdrop-filter: blur(700px); */
 }
 
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
-only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5),
-only screen and (min-width: 786px) {
+@media (min-width: 767px) and (-Webkit-min-device-pixel-ratio: 1.5),
+(min-width: 767px) and (-moz-min-device-pixel-ratio: 1.5),
+(min-width: 767px) and (-o-min-device-pixel-ratio: 3/2),
+(min-width: 767px) and (min-device-pixel-ratio: 1.5) {
   .background-circle {
-    width: 303px !important;
-    height: 303px !important;
+    width: 303px;
+    height: 303px;
   }
 
   .background-circle.two,
   .background-circle.three {
-    width: 366px;
-    height: 366px;
+    width: 366px !important;
+    height: 366px !important;
   }
 
   .background-circle.six {
-    width: 410px;
-    height: 410px;
+    width: 410px !important;
+    height: 410px !important;
   }
 }
 
